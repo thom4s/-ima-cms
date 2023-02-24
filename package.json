@@ -10,17 +10,17 @@
     "strapi": "strapi"
   },
   "devDependencies": {
-    "esbuild-wasm": "latest"
+    "esbuild-wasm":"latest"
   },
   "overrides": {
-    "esbuild": "npm:esbuild-wasm@latest"
-  },
+    "esbuild":"npm:esbuild-wasm@latest"
+  }, 
   "dependencies": {
-    "@strapi/plugin-i18n": "4.4.3",
-    "@strapi/plugin-users-permissions": "4.4.3",
-    "@strapi/strapi": "4.4.3",
-    "better-sqlite3": "7.4.6",
-    "pg": "^8.8.0"
+    "@strapi/plugin-i18n": "4.5.5",
+    "@strapi/plugin-users-permissions": "4.5.5",
+    "@strapi/provider-upload-cloudinary": "4.5.5",
+    "@strapi/strapi": "4.5.5",
+    "pg": "8.8.0"
   },
   "author": {
     "name": "Thomas Florentin"
@@ -29,7 +29,7 @@
     "uuid": "35d7a084-3088-4d0b-869e-f503693ee8e5"
   },
   "engines": {
-    "node": ">=14.19.1 <=18.x.x",
+    "node": ">=16.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
